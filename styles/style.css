@@ -62,6 +62,8 @@
   height: 608px;
   right: 0;
   bottom: 0;
+  object-fit: cover;
+  object-position: center;
   z-index: 1;
 }
 
@@ -306,7 +308,7 @@
   justify-content: space-between;
 }
 
-.footer__autor {
+.footer__author {
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
